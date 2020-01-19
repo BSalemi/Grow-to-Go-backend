@@ -12,7 +12,7 @@ kimberly_queen = Plant.create(name: "Kimberly Queen Fern", species: "Nephrolepis
 
 neon_pothos = Plant.create(name: "Neon Pothos", species: "Epipremnum Aureum", price: 20, exp_level: "Beginner", size: "Mini", light_required: "Low to Medium Indirect", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_neon-pothos_grant_blush_5_1500x.progressive.jpg?v=1566928489", pet_friendly: false)
 
-snake_plant = Plant.create(name: "Petite Snake Plant", species: "Sansevieria", price: 25, exp_level: "Beginner", size: "Mini", light_required: "Medium Indirect", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_potted-plant_cylindrical-snake-plant_ezra_mint_1500x.progressive.jpg?v=1560530525", pet_friendly: false)
+snake_plant = Plant.create(name: "Snake Zeylanica", species: "Sansevieria Zeylanica", price: 100, exp_level: "Beginner", size: "Large", light_required: "Medium to Bright Indirect", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_potted-plant_cylindrical-snake-plant_ezra_mint_1500x.progressive.jpg?v=1560530525", pet_friendly: false)
 
 silver = Plant.create(name: "Silver Philodendron", species: "Scindapsus Pictus", price: 25, exp_level: "Beginner", size: "Mini", light_required: "Medium Indirect", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_potted-plant_silver-philodendron_grant_mustard-4_1500x.progressive.jpg?v=1565297788", pet_friendly: false)
 
@@ -34,7 +34,7 @@ ponytail = Plant.create(name: "Ponytail Palm", species: "Beaucarnea Recurvata", 
 
 peperomia = Plant.create(name: "Peperomia Ginny", species: "Peperomia Clusiifolia 'Ginny'", price: 35, exp_level: "Beginner", size: "Small", light_required: "Low to Bright Indirect", image: "https://bloomscape.com/wp-content/uploads/2019/03/bloomscape-product-peperomia-ginny-charcoal-324x393.jpg", pet_friendly: true)
 
-aloe = Plant.create(name: "Aloe Vera", species: "Aloe Vera", price: 35, exp_level: "Beginner", size: "Mini", light_required: "Bright Indirect to Full Sun", image: "http://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_aloe-vera_prospect_blush_4_1500x.progressive.jpg?v=1567675325", pet_friendly: false)
+agavoides = Plant.create(name: "Echeveria Agavoides", species: "Echeveria", price: 25, exp_level: "Beginner", size: "Mini", light_required: "Bright Indirect to Full Sun", image: "http://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_aloe-vera_prospect_blush_4_1500x.progressive.jpg?v=1567675325", pet_friendly: true)
 
 pilea = Plant.create(name: "Pilea Peperomioides", species: "Pilea Peperomioides", price: 40, exp_level: "Beginner", size: "Mini", light_required: "Bright Indirect to Bright Direct", image: "http://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_Grant_PaleRed_Pilea-4_8d08356e-43dd-44dc-9044-997e6751b136_1500x.progressive.jpg?v=1564157115", pet_friendly: false)
 
@@ -74,11 +74,11 @@ peperomia_marble = Plant.create(name: "Peperomia Marble", species: "Peperomia Ob
 
 hoya_heart = Plant.create(name: "Hoya Heart", species: "Hoya Kerrii", price: 20, exp_level: "Beginner", size: "Mini", light_required: "Bright Indirect to Bright Direct", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_hoya-heart_hyde_mint_mini_1500x.progressive.jpg?v=1569006834", pet_friendly: true)
 
-peperomia_green = Plant.create(name: "Peperomia Green", species: "Peperomia Obtusifolia", price: 30, exp_level: "Beginner", size: "Small", light_required: "Medium to Bright Indirect", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_peperomia-obtusfolia-green_variant_small_hyde_black_1500x.progressive.jpg?v=1569424577", pet_friendly: true)
+norfolk_island = Plant.create(name: "Norfolk Island Pine Tree", species: "Araucaria Heterophylla", price: 65, exp_level: "Intermediate", size: "Medium", light_required: "Medium to Bright Indirect", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_peperomia-obtusfolia-green_variant_small_hyde_black_1500x.progressive.jpg?v=1569424577", pet_friendly: false)
 
-staghorn_fern = Plant.create(name: "Staghorn Fern", species: "Platycerium Superbum", price: 40, exp_level: "Beginner", size: "Small", light_required: "Medium to Bright Indirect", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_houseplant_staghorn-fern_august_blush_4_1500x.progressive.jpg?v=1537548908", pet_friendly: true)
+frosty_fern = Plant.create(name: "Frosty Fern", species: "Selaginella Kraussiana 'Variegatus'", price: 40, exp_level: "Beginner", size: "Small", light_required: "Bright Indirect", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_houseplant_staghorn-fern_august_blush_4_1500x.progressive.jpg?v=1537548908", pet_friendly: false)
 
-pinstripe_calathea = Plant.create(name: "Pinstripe Calathea", species: "Calathea Ornata", price: 35, exp_level: "Intermediate", size: "Small", light_required: "Medium Indirect", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/gallery_the-sill_calathea-pinstripe_grant_black_5_1500x.progressive.jpg?v=1555966436", pet_friendly: true)
+schefflera = Plant.create(name: "Schefflera", species: "Schefflera", price: 55, exp_level: "Beginner", size: "Medium", light_required: "Bright Indirect to Medium Direct", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/gallery_the-sill_calathea-pinstripe_grant_black_5_1500x.progressive.jpg?v=1555966436", pet_friendly: false)
 
 calathea_freddie = Plant.create(name: "Calathea Freddie", species: "Calathea concinna Freddie", price: 55, exp_level: "Beginner", size: "Medium", light_required: "Medium Indirect", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_potted-plant_calathea-freddie-6_prospect_blush-7_1500x.progressive.jpg?v=1566420915", pet_friendly: true)
 
@@ -86,7 +86,7 @@ echeveria_lola = Plant.create(name: "Echeveria Lola", species: "Echeveria 'Lola'
 
 haworthia_zebra = Plant.create(name: "Haworthia Zebra", species: "Haworthia Fasciata", price: 25, exp_level: "Beginner", size: "Mini", light_required: "Bright Indirect to Full Sun", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_haworthia-succulent-zebra-plant_dolores_dark-green_4_1500x.progressive.jpg?v=1567782658", pet_friendly: true)
 
-echeveria = Plant.create(name: "Echeveria", species: "Echeveria", price: 25, exp_level: "Beginner", size: "Mini", light_required: "Bright Indirect to Full Sun", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_echeveria-succulent-plant_hyde_mint_4_1500x.progressive.jpg?v=1566420085", pet_friendly: true) 
+monstera_deliciosa = Plant.create(name: "Monstera Deliciosa", species: "Monstera Deliciosa", price: 40, exp_level: "Beginner", size: "Small", light_required: "Medium to Bright Indirect", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_echeveria-succulent-plant_hyde_mint_4_1500x.progressive.jpg?v=1566420085", pet_friendly: false) 
 
 philodendron_prince = Plant.create(name: "Philodendron Prince of Orange", species: "Philodendron Hybrida 'Prince of Orange'", price: 65, exp_level: "Beginner", size: "Medium", light_required: "Low to Bright Indirect", image: "https://bloomscape.com/wp-content/uploads/2019/09/bloomscape_product_philodendron-prince-of-orange_-324x395.jpg", pet_friendly: false)
 
@@ -96,4 +96,4 @@ croton_petra = Plant.create(name: "Croton Petra", species: "Codiaeum Variegatum 
 
 ficus_danielle = Plant.create(name: "Ficus Danielle", species: "Ficus Benjamina 'Danielle'", price: 155, exp_level: "Advanced", size: "X-Large", light_required: "Medium to Bright Indirect", image: "https://bloomscape.com/wp-content/uploads/2019/03/bloomscape_product-ficus-danielle-clay-324x393.jpg", pet_friendly: false)
 
-panda_plant = Plant.create(name: "Panda Plant", species: "Kalanchoe Tomentosa", price: 20, exp_level: "Beginner", size: "Mini", light_required: "Bright Indirect to Full Sun", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_panda-plant_ezra_mint_2.5_1500x.progressive.jpg?v=1567630601", pet_friendly: false)
+xerographica = Plant.create(name: "Xerographic Air Plant", species: "Tillandsia Xerographica", price: 20, exp_level: "Beginner", size: "Mini", light_required: "Bright Indirect to Bright Direct", image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_panda-plant_ezra_mint_2.5_1500x.progressive.jpg?v=1567630601", pet_friendly: true)
