@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :reviews
   resources :cart_plants, only: [:index, :create, :destroy, :show]
   resources :carts,  only: [:index, :show]
   resources :plants, only: [:index, :show]
