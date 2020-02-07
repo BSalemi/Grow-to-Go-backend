@@ -1,13 +1,13 @@
 class ReviewsController < ApplicationController
 
     def index
-        reviews = Review.all 
+        reviews = Review.select{|review| review.plant_id == params[:plant_id]}
         render json: reviews, except: [:created_at, :updated_at]
     end 
 
     def show
-        review = Review.find(id: params[:id])
-        render json: review, except: [:created_at, :updated_at]
+        reviews = Review.select{|review| review.plant_id == params[:plant_id]}
+        render json: reviews, except: [:created_at, :updated_at]
     end 
 
     def create 

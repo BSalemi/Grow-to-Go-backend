@@ -7,7 +7,14 @@ class PlantsController < ApplicationController
 
     def show
         plant = Plant.find_by(id: params[:id])
-        if plant 
+        reviews = plant.reviews
+        if plant && reviews
+            render json: plant, :include => {
+                reviews: {
+                    except: [:created_at, :updated_at]
+                }
+            }, except: [:created_at, :updated_at]
+        elsif plant 
             render json: plant, except: [:created_at, :updated_at]
         else 
             render json: {message: "Plant not found."}
