@@ -22,20 +22,14 @@ class ReviewsController < ApplicationController
 
     def destroy
         review = Review.find(params[:id])
-        plant = Plant.find(params[:plant_id])
-        reviews = plant.reviews 
-
+        
+        id = review.id
         review.destroy
+        
+         
 
-        if plant && reviews
-            render json: plant, :include => {
-                reviews: {
-                    except: [:created_at, :updated_at]
-                }
-            }, except: [:created_at, :updated_at] 
-        else 
-            plant 
-            render json: plant, except: [:created_at, :updated_at]
-        end 
+        render json: id, except: [:created_at, :updated_at]
+
+    
     end 
 end
