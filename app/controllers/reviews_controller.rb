@@ -25,11 +25,8 @@ class ReviewsController < ApplicationController
         
         id = review.id
         review.destroy
-        
-         
 
         render json: id, except: [:created_at, :updated_at]
 
-    
     end 
 end

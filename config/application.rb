@@ -25,7 +25,7 @@ module GrowToGoApi
     config.load_defaults 6.0
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-          origins '*'
+          origins 'https://grow-to-go-backend.herokuapp.com/'
           resource '*', headers: :any, methods: [:get, :post, :delete]
       end
     end
