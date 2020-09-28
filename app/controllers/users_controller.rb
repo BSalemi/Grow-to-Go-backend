@@ -1,5 +1,26 @@
 class UsersController < ApplicationController
 
+    def index
+        users = User.all 
+
+        if users
+            render json: users, :include => {
+                carts: {
+                    except: [:created_at, :updated_at], 
+                    methods: :total, 
+                    include: {
+                        cart_plants:{ 
+                            include: :plant
+                        }
+                    },
+                },
+                }, except: [:created_at, :updated_at]
+        else 
+            render json: {message: "No users found."}
+        end 
+
+    end 
+
     def show
         user = User.find_by(id: params[:id])
         if user

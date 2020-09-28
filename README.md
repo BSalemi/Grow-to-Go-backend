@@ -1,4 +1,4 @@
-![Grow To Go logo](https://fontmeme.com/permalink/190910/cd6f2ab7e2bb65d7267bc46d5894d410.png)
+![Grow To Go logo](https://i.imgur.com/EWCxpmq.png)
 
 # Grow To Go
 
@@ -26,24 +26,24 @@ Upon launching the application, the user can navigate to localhost:PortNumber/ t
 
 Following a successful user sign-up or log-in, the user will arrive at Grow to Go's homepage. Once the homepage is rendered, a fetch request is made to the Rails backend to collect and render all of the houseplants found in the seed file. 
 
-[![Grow To Go Screen Grab](https://i.imgur.com/z5gl848.png)](https://vimeo.com/366899721)
+[![Grow To Go Screen Grab](https://i.imgur.com/XhIXIVy.png)](https://vimeo.com/366899721)
 
-From here, the user has a number of different options to find the perfect plant for their situation. 
+From here, users have a number of different options to find the perfect plant for them. 
+
 
    * Sort for plants by:
     	- Price
     	- Size
     	- Experience Level
-    	- Light Requirements 
+    	- Light Requirements
       - Pet Friendliness/Non-toxic to cats and dogs
-      
-   * Use the search feature to find plants directly by name. 
-   * Click on a plant to be brought to that particular plant's show page which includes more information about that plant.
-   * Add a desired plant to their shopping cart by clicking the associated Add to Cart button.
-   * Hover over the Shopping Cart icon to display the contenets of the user's cart.
-   * Remove a plant from their cart by clicking on the Trash Bin icon.
-   * Increment or decrement a plant in their cart by clicking the + or trash can icons.
-   * Complete their transaction by clicking the Checkout button.
+   * Use the search feature to find plants directly by name.
+   * Click on a plant to be brought to that particular plant's show page which includes additional information about and reviews for that plant. Users can also leave their own review or delete their past reviews here.
+   ![Grow To Go Screen Grab](https://i.imgur.com/liUR3sE.png)
+   * Add a desired plant to their shopping cart by clicking the `Add to Cart` button.
+   * Hover over the Cart icon to display the contents of their cart.
+   * Increment or decrement/remove a plant in their cart by clicking the `+` or `trash can` icons.
+   * Complete their transaction by clicking the `Checkout` button.
    
 ## Contribution 
    
